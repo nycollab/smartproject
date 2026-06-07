@@ -300,7 +300,7 @@ MySQL usually runs as a Windows service automatically. If not:
 Terminal 1 - Backend
 
   cd backend
-  venv\Scripts\activate
+  menv\Scripts\activate
   uvicorn app.main:app --reload --port 8000
 
 Terminal 2 - Frontend
